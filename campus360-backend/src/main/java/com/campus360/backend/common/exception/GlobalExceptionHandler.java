@@ -42,7 +42,7 @@ public class GlobalExceptionHandler {
                 .status(HttpStatus.INTERNAL_SERVER_ERROR)
                 .body(
                         ApiResponse.failure("Something went wrong. Please try again later.")
-                )
+                );
     }
 
 }
