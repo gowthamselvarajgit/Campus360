@@ -23,7 +23,7 @@ public class Organization extends BaseEntity {
     @Column(name = "short_name", nullable = false, length = 30)
     private String shortName;
 
-    @Column(name = "organization_code", nullable = false, unique = true, length = 20)
+    @Column(name = "organization_code", unique = true, length = 20)
     private String organizationCode;
 
     @Column(name = "government_code", length = 20)
